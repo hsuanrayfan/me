@@ -1,0 +1,64 @@
+/* 輸入Google Hind Guntur */
+
+@import 'https://fonts.googleapis.com/css?family=Hind+Guntur';
+
+/* 版面所有字型套用Hind Guntur */
+
+* {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+
+/* Body調整 */
+
+#whole {
+    background-image: url(../images/nebula.jpeg);
+    background-size: cover;
+    background-color: darkblue;
+}
+
+
+/* CV區塊 */
+
+#cv {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #FFFFFF;
+}
+
+
+/* CV大項目區塊 */
+
+.block {
+    margin: 10% 0;
+}
+
+
+/* CV次要項目區塊（每項公司經歷） */
+
+.block2 {
+    margin: 5% 0;
+}
+
+
+/* h3調整 */
+
+h3 {
+    margin: 0 0 0 0;
+}
+
+
+/* h4調整 */
+
+h4 {
+    margin: 1px 0;
+    color: dimgray;
+}
+
+
+/* footer */
+
+#footer {
+    vertical-align: middle
+}
